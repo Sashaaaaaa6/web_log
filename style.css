@@ -1,6 +1,5 @@
 .general-h1 {
   text-align: center;
-  font-family: "Arial", sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #1f2937;
@@ -27,7 +26,6 @@
   font-size: 30px;
   font-weight: 400;
   color: blueviolet;
-  font-family: "Arial", sans-serif;
 }
 
 .general-li:nth-child(1) .general-h2 {
@@ -66,7 +64,6 @@
 }
 .general-p {
   font-size: 20px;
-  font-family: "Arial", sans-serif;
   font-weight: 400;
   color: #1f2937;
 }
@@ -121,7 +118,6 @@
 }
 
 .header-a {
-  font-family: "Montserrat", sans-serif;
 }
 
 .hero {
@@ -134,12 +130,12 @@
   margin: 0 0 16px;
   font-size: 64px;
   font-weight: 800;
-  background: linear-gradient(90deg, #2563eb, #9333ea, #ec4899, #2563eb);
+  color: #2563eb;
   background-size: 300% 100%;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-  animation: gradientMove 4s linear infinite;
+  /* color: transparent; */
+  /* animation: gradientMove 4s linear infinite; */
 }
 
 .hero-text {
@@ -322,12 +318,7 @@
     font-size: 28px;
   }
 }
-.hero {
+
+body {
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-.reviews {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.cta {
-  font-family: "Montserrat", sans-serif;
 }

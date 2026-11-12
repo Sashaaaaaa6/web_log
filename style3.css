@@ -1,0 +1,228 @@
+/* ========== CONTACTS HERO ========== */
+.contacts-hero {
+  text-align: center;
+  padding: 70px 16px 50px;
+  background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+}
+
+.contacts-title {
+  margin: 0 0 16px;
+  font-size: 52px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.contacts-text {
+  margin: 0 auto;
+  max-width: 520px;
+  font-size: 20px;
+  color: #4b5563;
+}
+
+/* ========== КОНТАКТЫ + ФОРМА ========== */
+.contacts {
+  padding: 70px 16px;
+}
+
+.contacts-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.info-ul {
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.info-icon {
+  flex: 0 0 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  border-radius: 50%;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.info-li:hover .info-icon {
+  transform: scale(1.12) rotate(-8deg);
+}
+
+.info-h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: #9333ea;
+}
+
+.info-link,
+.info-p {
+  margin: 0;
+  font-size: 18px;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.info-link:hover {
+  color: #2563eb;
+}
+
+/* Форма */
+.contact-form {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px;
+  background: #f3f4f6;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  margin: 0 0 12px;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.contact-form button {
+  margin-top: 12px;
+  padding: 14px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2563eb, #9333ea);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(147, 51, 234, 0.4);
+}
+
+/* ========== СОЦСЕТИ ========== */
+.social {
+  padding: 70px 16px;
+  background: #1f2937;
+}
+
+.social .section-title {
+  color: #fff;
+}
+
+.social-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-a {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #4b5563;
+  border-radius: 999px;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.social-a:hover {
+  background: linear-gradient(90deg, #2563eb, #9333ea);
+  border-color: transparent;
+  transform: translateY(-4px);
+}
+
+/* ========== КАРТА ========== */
+.map {
+  padding: 70px 16px;
+}
+
+.map-frame {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== MOBILE ========== */
+@media (max-width: 768px) {
+  .contacts-title {
+    font-size: 36px;
+  }
+
+  .contacts-grid {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+  }
+
+  .map-frame {
+    height: 300px;
+  }
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

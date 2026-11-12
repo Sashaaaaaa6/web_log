@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <title>WEB</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- 1. Заголовок -->
+      <section class="contacts-hero">
+        <h1 class="contacts-title">Contact us</h1>
+        <p class="contacts-text">
+          Have a question or an idea? Leave a message and we will answer within
+          one business day.
+        </p>
+      </section>
+
+      <!-- 2. Контакты + форма -->
+      <section class="contacts">
+        <div class="contacts-grid">
+          <ul class="info-ul">
+            <li class="info-li">
+              <span class="info-icon">📞</span>
+              <div>
+                <h3 class="info-h3">Phone</h3>
+                <a class="info-link" href="tel:+380123456789"
+                  >+380 12 345 67 89</a
+                >
+              </div>
+            </li>
+            <li class="info-li">
+              <span class="info-icon">✉️</span>
+              <div>
+                <h3 class="info-h3">Email</h3>
+                <a class="info-link" href="mailto:info@bulavin.co"
+                  >info@bulavin.co</a
+                >
+              </div>
+            </li>
+            <li class="info-li">
+              <span class="info-icon">📍</span>
+              <div>
+                <h3 class="info-h3">Address</h3>
+                <p class="info-p">Lorem, ipsum.</p>
+              </div>
+            </li>
+            <li class="info-li">
+              <span class="info-icon">🕒</span>
+              <div>
+                <h3 class="info-h3">Working hours</h3>
+                <p class="info-p">Mon-Fri, 9:00-18:00</p>
+              </div>
+            </li>
+          </ul>
+
+          <form class="contact-form">
+            <h2 class="form-title">Send a message</h2>
+
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John"
+              required
+            />
+
+            <label for="email">Your email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+            />
+
+            <label for="phone">Your phone number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+380 12 345 67 89"
+            />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- 3. Соцсети -->
+      <section class="social">
+        <h2 class="section-title">Follow us</h2>
+        <ul class="social-ul">
+          <li><a class="social-a" href="#">Instagram</a></li>
+          <li><a class="social-a" href="#">Telegram</a></li>
+          <li><a class="social-a" href="#">LinkedIn</a></li>
+          <li><a class="social-a" href="#">Facebook</a></li>
+        </ul>
+      </section>
+
+      <!-- 4. Карта -->
+      <section class="map">
+        <h2 class="section-title">Where to find us</h2>
+        <iframe
+          class="map-frame"
+          src=""
+          loading="lazy"
+          title="Bulavin Co on the map"
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>

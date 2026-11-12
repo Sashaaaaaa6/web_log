@@ -8,34 +8,141 @@
   </head>
   <body>
     <header></header>
-    <main></main>
-    <footer class="footer">
-      <form class="contact-form">
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" placeholder="John" required />
+    <main class="main">
+      <!-- 1. Hero в две колонки -->
+      <section class="about-hero">
+        <div class="about-hero-text">
+          <h1 class="about-title">About us</h1>
+          <p class="about-text">
+            We help businesses grow with reliable and honest economic solutions.
+          </p>
+          <a href="contacts.html" class="hero-btn">Contact us</a>
+        </div>
+        <div class="about-hero-visual">2026</div>
+      </section>
 
-        <label for="email">Your email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="example@gmail.com"
-          required
-        />
+      <!-- 2. Timeline -->
+      <section class="timeline">
+        <h2 class="section-title">Our story</h2>
+        <ul class="timeline-ul">
+          <li class="timeline-li">
+            <span class="timeline-year">2026</span>
+            <p>Bulavin Co is founded with a small team of experts.</p>
+          </li>
+          <li class="timeline-li">
+            <span class="timeline-year">2027</span>
+            <p>
+              First 50 projects completed for clients in different industries.
+            </p>
+          </li>
+          <li class="timeline-li">
+            <span class="timeline-year">Today</span>
+            <p>A team of 111 specialists and growing.</p>
+          </li>
+        </ul>
+      </section>
 
-        <label for="phone">Your phone number</label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          placeholder="+380 12 345 67 89"
-        />
+      <!-- 3. Миссия и видение зигзагом -->
+      <section class="zigzag">
+        <div class="zigzag-row">
+          <div class="zigzag-box">Mission</div>
+          <p class="zigzag-text">
+            Our mission is to make economic consulting clear, honest and
+            accessible for every business.
+          </p>
+        </div>
+        <div class="zigzag-row zigzag-row-reverse">
+          <div class="zigzag-box zigzag-box-alt">Vision</div>
+          <p class="zigzag-text">
+            We want to become the first partner companies think of when they
+            need reliable economic solutions.
+          </p>
+        </div>
+      </section>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4"></textarea>
+      <!-- 4. Ценности строками на тёмном фоне -->
+      <section class="values">
+        <h2 class="section-title values-title">Our values</h2>
+        <ul class="values-ul">
+          <li class="values-li">
+            <span class="values-num">01</span>
+            <div>
+              <h3 class="values-h3">Honesty</h3>
+              <p>We tell clients the truth, even when it is not easy.</p>
+            </div>
+          </li>
+          <li class="values-li">
+            <span class="values-num">02</span>
+            <div>
+              <h3 class="values-h3">Quality</h3>
+              <p>We care about every detail of the project.</p>
+            </div>
+          </li>
+          <li class="values-li">
+            <span class="values-num">03</span>
+            <div>
+              <h3 class="values-h3">Deadlines</h3>
+              <p>We deliver on time, as promised.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <button type="submit">Send</button>
-      </form>
-    </footer>
+      <!-- 5. Команда -->
+      <section class="team">
+        <h2 class="section-title">Our team</h2>
+        <ul class="team-ul">
+          <li class="team-li">
+            <div class="team-photo"></div>
+            <div class="team-info">
+              <h3 class="team-name">Name Surname</h3>
+              <p class="team-role">CEO</p>
+            </div>
+          </li>
+          <li class="team-li">
+            <div class="team-photo"></div>
+            <div class="team-info">
+              <h3 class="team-name">Name Surname</h3>
+              <p class="team-role">Lead economist</p>
+            </div>
+          </li>
+          <li class="team-li">
+            <div class="team-photo"></div>
+            <div class="team-info">
+              <h3 class="team-name">Name Surname</h3>
+              <p class="team-role">Project manager</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 6. FAQ -->
+      <section class="faq">
+        <h2 class="section-title">Questions</h2>
+        <details class="faq-item">
+          <summary>How do we start working together?</summary>
+          <p>
+            Leave your contacts and we will call you within one business day.
+          </p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does a project take?</summary>
+          <p>
+            It depends on the size of the project, usually from 2 to 8 weeks.
+          </p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you work with small businesses?</summary>
+          <p>Yes, we work with companies of any size.</p>
+        </details>
+      </section>
+
+      <!-- 7. CTA -->
+      <section class="cta">
+        <h2>Want to work with us?</h2>
+        <a href="contacts.html" class="hero-btn">Get in touch</a>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>
